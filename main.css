@@ -1,10 +1,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: #a5a58d;
+    background: #2a9d8f;
 }
 .navbar {
-    background:#6b705c;
+    background:#264653;
 }
 .nav-link,
 .navbar-brand {
@@ -45,7 +45,7 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #a5a58d;
+	color: #2a9d8f;
 }
 .description p {
 	color: #000;
@@ -54,8 +54,8 @@ body {
 }
 
 .description button {
-    border:0px solid #a5a58d;
-    background:#a5a58d;
+    border:0px solid #2a9d8f;
+    background:#2a9d8f;
     color:#fff;
 }
 .description button:hover {
@@ -65,8 +65,8 @@ body {
 }
 
 .btn-light, .btn-light:active, .btn-light:visited  {
-    border:0px solid #a5a58d;
-    background:#a5a58d;
+    border:0px solid #2a9d8f;
+    background:#2a9d8f;
     color:#fff;  
 }
 .btn-light:hover {
@@ -96,8 +96,8 @@ body {
 }
 
 .features .btn {
-    background-color: #6b705c;
-    border: 1px solid #6b705c;
+    background-color: #264653;
+    border: 1px solid #264653;
     color: #fff;
     margin-top: 20px;
 }
