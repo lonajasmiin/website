@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>Minust</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -14,68 +14,11 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="main-navigation">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="/index.html">Esileht</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="minust.html">Minust</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="tood.html">Tehtud tööd</a>
-			</li>
-            <li class="nav-item">
-				<a class="nav-link" href="kontakt.html">Kontakt</a>
-			</li>
-		</ul>
+    <?php require ('nav.php'); ?>
 	</div>
 </nav>
-<header class="page-header header container-fluid">
-    <div class="overlay"></div>
-    <div class="description">
-        <h1>Tere tulemast!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-        <a class="btn btn-light btn-lg" href="minust.html" role="button">Loe edasi!</a>
-    </header>
 <div class="container features">
-    <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h3 class="feature-title">Töö nr 1</h3>
-            <img src="pilt1.jpg" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-            <a class="btn btn-outline-light" href="tood.html" role="button">Loe edasi</a><br><br>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h3 class="feature-title">Töö nr 2</h3>
-            <img src="pilt2.jpg" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-            <a class="btn btn-outline-light" href="tood.html" role="button">Loe edasi</a><br><br>
-        </div>
-        
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h3 class="feature-title">Töö nr 3</h3>
-            <img src="pilt3.jpg" class="img-fluid">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
-            <a class="btn btn-outline-light" href="tood.html" role="button">Loe edasi</a><br><br>
-</div></div></div>
-<div class="background">
-    <div class="container services">
-        <div class="row">
-            <div class="col text-center">
-                <div class="card-body">
-                    <h4 class="card-title">Teenus nr 1</h4>
-                    <p class="card-text">Kirjeldus</p>
-                </div>
-            </div>
-            <div class="col text-center">
-                <div class="card-body">
-                    <h4 class="card-title">Teenus nr 2</h4>
-                    <p class="card-text">Kirjeldus</p>
-                </div>
-            </div>
-        </div>
-    </div>
+<h1>About Us</h1>
 </div>
 <footer class="page-footer">
     <div class="container">

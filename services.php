@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
+    <title>Tehtud tööd</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
@@ -14,24 +14,11 @@
 		<span class="navbar-toggler-icon"></span>
 	</button>
 	<div class="collapse navbar-collapse" id="main-navigation">
-		<ul class="navbar-nav">
-			<li class="nav-item">
-				<a class="nav-link" href="/index.html">Esileht</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="/minust.html">Minust</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="tood.html">Tehtud tööd</a>
-			</li>
-            <li class="nav-item">
-				<a class="nav-link" href="kontakt.html">Kontakt</a>
-			</li>
-		</ul>
+    <?php require ('nav.php'); ?>
 	</div>
 </nav>
 <div class="container features">
-<h1>Kontakt</h1>
+<h1>Services</h1>
 </div>
 <footer class="page-footer">
     <div class="container">

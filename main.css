@@ -19,11 +19,11 @@ body {
 }
 
 .navbar-collapse {
-    justify-content: center;
+    justify-content: right;
 }
 
 .header {
-    background-image: url('background3.jpg');
+    background-image: url('background2.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -35,7 +35,7 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(255,255,255,.5);
+    background: rgba(255, 255, 255, 0.5);
 }
 .description {
 	left: 50%;
@@ -43,9 +43,16 @@ body {
 	top: 55%;
 	transform: translate(-50%, -55%);
 	text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+	padding: 20px;
 }
+
 .description h1 {
 	color: #2a9d8f;
+}
+
+h1, h2 {
+	text-transform: uppercase;
 }
 .description p {
 	color: #000;
@@ -140,7 +147,7 @@ body {
 }
 
 .page-footer a:hover {
-    color: #e4e4e4;
+    color: #43c9b9;
     text-decoration: none;
 }
 
@@ -184,5 +191,16 @@ body {
 	#demo-modal .btn {
 		min-width: auto;
 	}
-
 }
+
+svg:hover {
+	fill: #43c9b9;
+  }
+  
+  a {
+	color:#333;
+  }
+
+  a:hover {
+	  color: #43c9b9;
+  }
